@@ -151,9 +151,17 @@ html {
 @media (min-width: 1200px ) {
 
 	html {
-		/* --ratio: 1.2; */
-
 		font-size: 18px;
+ 	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	html {
+		--ratio:  1.18;
+
+		font-size: 22px;
  	}
 
 }
@@ -258,6 +266,14 @@ header {
 
 	.header-content {
 		max-width: 60rem;
+	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	.header-content {
+		max-width: 75rem;
 	}
 
 }
@@ -490,6 +506,14 @@ footer .tertiary-text {
 
 	footer .tertiary-text {
 		text-align: left;
+	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	.footer-content {
+		max-width: 75rem;
 	}
 
 }
@@ -853,6 +877,14 @@ ul li, ol li {
 
 }
 
+@media ( min-width: 2560px ) {
+
+	.hero-text {
+		width: 55rem;
+	}
+
+}
+
 
 /* ===============================================
    // Portoflio Cards
@@ -931,6 +963,15 @@ ul li, ol li {
 
 }
 
+@media ( min-width: 2560px ) {
+
+	.case-study {
+		flex-direction: column;
+		max-width: 75rem;
+	}
+
+}
+
 
 /* ===============================================
    // Image Grid
@@ -959,6 +1000,15 @@ ul li, ol li {
 
 	.picture-grid img {
 		height: 30rem;
+	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	.picture-grid {
+		grid-template-rows: 40rem;
+		max-width: 75rem;
 	}
 
 }
@@ -1014,6 +1064,14 @@ p + figure {
 
 .center-text h3 {
 	margin-top: 0;
+}
+
+@media ( min-width: 2560px ) {
+
+	.center-text {
+		max-width: 55rem;
+	}
+
 }
 
 /* Layout Header */
@@ -1077,12 +1135,21 @@ p + figure {
 
 }
 
+@media ( min-width: 2560px ) {
+
+	.layout-header {
+		max-width: 75rem;
+	}
+
+}
+
 /* Full Width Image */
 .image-full-width {
 	margin-bottom: var( --margin-large );
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 100%;
+	max-width: 75rem;
+	width: 100%;
 }
 
 /* Full 60rem Image */
@@ -1097,6 +1164,14 @@ p + figure {
 .image-60-width img {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media ( min-width: 2560px ) {
+
+	.image-60-width {
+		max-width: 75rem;
+	}
+
 }
 
 /* Two Columns with Pictures */
@@ -1114,6 +1189,14 @@ p + figure {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: var( --margin-large );
+	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	.layout-two-pic {
+		max-width: 75rem;
 	}
 
 }
@@ -1212,6 +1295,18 @@ blockquote + p {
 
 }
 
+@media ( min-width: 2560px ) {
+
+	.figure-wrapper {
+		max-width: 75rem;
+	}
+
+	.results-report h3 {
+		max-width: 55rem;
+	}
+
+}
+
 /* Case Study Nav */
 .cs-nav-bg {
 	background-color: var( --color-secondary-4 );
@@ -1243,6 +1338,14 @@ blockquote + p {
 
 	.case-study-nav a:first-of-type {
 		margin-bottom: 0;
+	}
+
+}
+
+@media ( min-width: 2560px ) {
+
+	.case-study-nav {
+		max-width: 75rem;
 	}
 
 }
@@ -1311,4 +1414,12 @@ button[type=submit]:hover {
 	background-color: var( --color-black );
 	color: var( --color-white );
 	cursor: pointer;
+}
+
+@media ( min-width: 2560px ) {
+
+	form {
+		max-width: 55rem;
+	}
+
 }
